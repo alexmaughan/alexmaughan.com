@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" class="html">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A value assertion by itself does not a valid argument make by Alexander Maughan</title>
+  <meta name="description" content="I'm worried about the current state of liberalism. Value assertions are being made in ways lacking in empathy and with very little substance to back it up."/>
+  <link rel="shortcut icon" href="/favicon.ico">
+  <script>(function(d) {
+    var config = {kitId: 'ckn7rzu', scriptTimeout: 3000, async: true}, h = d.documentElement, t = setTimeout(function() {
+      h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+    }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a;
+    h.className += " wf-loading";
+    tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+    tk.async = true;
+    tk.onload = tk.onreadystatechange = function() {
+      a = this.readyState;
+      if (f || a && a != "complete" && a != "loaded") return;
+      f = true;
+      clearTimeout(t);
+      try {
+        Typekit.load(config)
+      } catch (e) {
+      }
+    };
+    s.parentNode.insertBefore(tk, s)
+  })(document);</script>
+  <style>.html,html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}html,body{margin:0;padding:0}hr{border:0;border-top:1px dashed #ccc;margin:20px 30px}body{font-family:"proxima-nova",Proxima Nova,Helvetica Neue,Helvetica,sans-serif;color:#222;font-size:16px;line-height:1.7;-webkit-text-size-adjust:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility}.serif{font-family:miller-text, serif;font-size:18px}p::selection,h1::selection,h2::selection,h3::selection{background-color:#fff8d6;color:#222}h1,h2,h3{font-weight:600;line-height:1.6em}h3{font-size:1.4em}a:not(.no-dec),a:not(.no-dec):visited{display:inline-block;padding:0 5px;color:#222;text-decoration:none;outline:none;border-bottom:2px solid #b3d685;transition:border-color linear .3s}.serif a:not(.no-dec),.serif a:not(.no-dec):visited{display:inline;padding:0}a:hover,a:active,a:not(.no-dec):visited:hover{border-color:#fd689d}a img{border:none}a:focus{outline:2px dashed #5596b2;border-color:transparent}a.no-dec{text-decoration:none;color:#222}abbr{text-decoration:none;border-bottom:1px dotted #b3d685;cursor:help}.txt-muted{color:#666;font-size:14px}.sr{clip:rect(0 0 0 0);clip-path:inset(50%);height:1px;overflow:hidden;position:absolute;white-space:nowrap;width:1px}.page{padding:2em 1em 0}.header{text-align:center}.header_logo{max-width:80px}.header_headline{font-size:1.3rem;margin:.5em 0 0}.main{display:block;margin:2em auto;padding:1em;border:1px dashed #ccc;max-width:640px}.main_image{min-height:104px}.main_headline{margin:0;font-size:1.12em;line-height:1.7;text-align:center}.serif .main_headline{text-align:left}.technologies{list-style:none;padding:0;margin:1em 0}.technologies li{display:inline-block}.technologies li::before{content:'+';display:inline-block;margin:0 5px;vertical-align:middle;color:#bbb}.technologies li:first-child::before{display:none}.technologies--footer{font-size:16px;border-top:1px dashed #ccc;margin:3em 0 0;padding:3em 1em;background:#f1f1f1}@media (min-width: 28em){.page{font-size:18px;padding:3em 1em 0}.page--home{background:url("www.svg") no-repeat 0 0;background-size:30% auto}.main{margin:3em auto;padding:1.5em}.serif .main_headline{text-align:center}}
+</style>
+</head>
+
+<body>
+
+<div class="page">
+  <header class="header">
+    <a href="/" title="Go to home page" class="no-dec">
+      <img src="data:image/svg+xml;charset%3DUS-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2232%22%20height%3D%2237.868%22%20viewBox%3D%220%200%2032%2037.868%22%3E%3Cpath%20fill%3D%22%23555%22%20d%3D%22M30%2018.392C31.88%205.47%2024.405%200%2016%200%207.603%200-.117%205.42%201.968%2018.357.768%2019.333%200%2021.037%200%2023.07c0%202.726%202.607%205.063%204.627%205.808%201.89%206.303%208.787%208.99%2011.373%208.99%202.58%200%209.44-2.67%2011.357-8.935C29.604%2028.22%2032%2025.668%2032%2023.07c-.002-1.963-.8-3.68-2-4.678zm-3.277-1.633C16.455%208.19%2019.3%2022.35%205.32%2016.732%203.726%206.843%209.62%202.698%2016.03%202.698c6.418%200%2012.124%204.18%2010.693%2014.06z%22%2F%3E%3C%2Fsvg%3E" class="header_logo" alt="Logo">
+      <h1 class="header_headline">Alexander Maughan</h1>
+    </a>
+    <nav><a href="mailto:alex@maughan.me">alex@maughan.me</a></nav>
+  </header>
+
+  <main class="main serif">
+    <header class="header">
+      <span class="txt-muted">20 September 2020</span>
+      <h1 class="main_headline">A value assertion by itself does not a valid argument make</h1>
+    </header>
+    <hr>
+    <p>A friend of mine, Steve Barnett, wrote a short post titled, <a href="https://medium.com/feduxery/accessibility-is-usability-6ebcad17c192">Accessibility is usability</a>, on the back of a discussion with colleagues around whether accessibility negatively effects aesthetic considerations for non-disabled users. So, it is specifically in the context of <a href="https://www.linkedin.com/feed/update/urn:li:activity:6709211571702378496/">this</a> that I read his otherwise seemingly unproblematic post.</p>
+    <p>To start, one could extrapolate the specific aesthetics component of this disagreement to any effort or outcome that prioritises non-disabled users at the expense of disabled ones. So, one can quite fairly expect the post to be about why this prioritisation/deprioritisation shouldn't happen.</p>
+    <p>The problem is that the post doesn't put forward a merit-driven argument. Even for a short post, it is, in effect, a wordy version of: Be more inclusive, because It Is The Right Thing To Do™.</p>
+    <p>This is a value assertion, not an argument. Even though it happens to be a value I tend to agree with, the lack of a proper argument for why It Is The Right Thing To Do™ concerns me. It makes it flimsy and very easy to counter.</p>
+    <hr>
+    <h2 class="main_headline">That damn graph</h2>
+    <p>The graph he uses is a sophistical device that does nothing more than show how user numbers increase if you include others outside the core user set. The problem with this graph is that it doesn't account for the cost of increasing the newly coloured in parts, nor does it provide real numbers around how much the user numbers increase when disabled people are included.</p>
+    <p>Let me be clear before the liberal crusaders arrive at my doorstep with pitchforks: I personally think it is a very cold and unkind thing to reduce the needs of disabled people into mere numbers. But seeing as the graph is fundamentally about numbers, it would be a severe logical weakness to pretend that numbers can't similarly be used to argue against our shared value assertion. Also, Steve chose to use the graph, so in the interests of a proper argument we may as well give it the attention any counter argument would.</p>
+    <hr>
+    <h2 class="main_headline">Add a drop of scarcity</h2>
+    <p>Introduce resource scarcity into the graph by assuming that for every bit of the graph that gets coloured in a certain amount of scarce resources are required to do so. These resources can be in the form of time, money, energy, and skills.</p>
+    <p>Think of these things being represented by the ink in Steve's pen. Unlike Steve's pen, however, the ink in other scenarios tends to run out very quickly, so those using it need to be careful what areas they choose to colour in. By extending the original metaphor of this graph like this you quickly see an unfortunately strong, merit-driven argument to not be inclusive. The graph has failed, big time.</p>
+    <p>You could introduce another dimension by arguing that the number of features a product team is able to support is inversely proportional to the amount of area coloured in. So, as the breadth of the graph's coloured in area increases features need to be reduced.</p>
+    <p>This could be a good thing. Perhaps the product would benefit from a greater focus on fewer features and more inclusivity. The problem is that the graph doesn't tell us this. Its original tenet of “more is better” can way too easily be used against it. And it is this that underlines its sophistical nature; reducing the post to a value assertion lacking any substantive argument against those who may have contradicting values.</p>
+    <hr>
+    <h2 class="main_headline">Just Be Better Already™</h2>
+    <p>One <a href="https://www.linkedin.com/feed/update/urn:li:activity:6709211571702378496?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A6709211571702378496%2C6711537648978182144%29">comment on LinkedIn</a> offered with much self-righteous zeal that those who are unable or unwilling to increase the breadth of the graph are simply bad at their jobs. (Paraphrased into my own words here to keep it overtly tied to the graph).</p>
+    <p>Perhaps there is an element of truth in this, but that truth merely speaks to a skills scarcity, which, if real, can't be wished away to suit your own values. But at the same time, it may not be about skills scarcity at all. There are many things outside the rarefied domains of Apple or the BBC that make seemingly basic things hard to do.</p>
+    <hr>
+    <h2 class="main_headline">No, perhaps <em>you</em> need to be better</h2>
+    <p>I would argue that asserting one's own values without a proper argument as to why your value is Right and theirs is Wrong, makes that particular commenter bad at <em>his</em> job. I would avoid working with him lest I ever disagreed with one of his values.</p>
+    <p>Telling people they should Just Be Better Already™ is a woefully unhelpful strategy. For a skilled person or for a team with lots of resources and bosses who share their value assertions, being more inclusive is really easy. They have lots of ink in their pen, and many more pens should that one run out.</p>
+    <p>It is ironic that a liberal demand to be kinder can itself be so unkind to those without the same stationery surplus.</p>
+    <hr>
+    <h2 class="main_headline">Why gate crash the congregation?</h2>
+    <p>It does feel like I'm a smelly, drunken homeless person wandering into a church service arguing the merits of The Devil with all of this. I know all those attending really just want to rejoice in their shared faith and have some tea and scones at the end.</p>
+    <p>But Steve's premise was unmistakably that of a counter argument to those resistant to making accessibility changes. But it didn't do this. It just preached a value to like-minded believers.</p>
+    <p>I entered <a href="https://www.linkedin.com/feed/update/urn:li:activity:6709211571702378496/">that little congregation</a> already a believer, but I still want to be able to put forward a convincing argument to be kinder to disabled people in contexts riddled with scarcity problems or where others' values differ to mine. Steve's post and the ensuing comments on it not only fail to help with this, but potentially give those in difficult situations more reasons to be resistant.</p>
+    <p>This all stems from a more general concern I have about the current state of liberalism. Value assertions are being made in ways lacking in empathy and with very little substance to back it up. This is happening across multiple subjects and beliefs. Steve's graph and the ensuing congregation on LinkedIn is just one example. I feel we need to start calling this stuff out for what it really is.</p>
+  </main>
+
+  <footer class="header">
+    My local time is UTC +2:00
+    <h1 class="header_headline">Get in touch</h1>
+    <nav><a href="mailto:alex@maughan.me">alex@maughan.me</a></nav>
+  </footer>
+</div>
+
+<ul id="highlighted-technologies" class="header technologies technologies--footer">
+  <li>HTML</li><li>CSS</li><li>JavaScript</li><li>LAMP</li><li>Vanilla ES6+</li><li>Nodejs</li><li>Vue.js</li><li>Angular</li><li>WordPress</li><li>Laravel</li><li>Rails</li>
+</ul>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-32894916-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-32894916-1');
+  </script>
+
+</body>
+</html>
